@@ -1,0 +1,3 @@
+qtils provides CMake targets:
+
+find_package(qtils CONFIG REQUIRED)
