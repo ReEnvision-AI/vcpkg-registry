@@ -1,19 +1,19 @@
 {
-    "name": "qtils",
-    "version": "0.0.4",
-    "homepage": "https://github.com/ReEnvision-AI/qtils",
-    "description": "",
-    "license": "Apache-2.0",
-    "dependencies": [
-      {
-        "name" : "vcpkg-cmake",
-        "host" : true
-      },
-      {
-        "name" : "vcpkg-cmake-config",
-        "host" : true
-      },
-      "boost",
-      "fmt"
-    ]
-  }
+  "name": "qtils",
+  "version": "0.0.4",
+  "description": "",
+  "homepage": "https://github.com/ReEnvision-AI/qtils",
+  "license": "Apache-2.0",
+  "dependencies": [
+    "boost",
+    "fmt",
+    {
+      "name": "vcpkg-cmake",
+      "host": true
+    },
+    {
+      "name": "vcpkg-cmake-config",
+      "host": true
+    }
+  ]
+}
